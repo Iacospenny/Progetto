@@ -12,24 +12,25 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden ;
-    
 }
 
 #myHome li {
     float: left;
-    font-family: "Georgia", serif;
+    font-family: sans-serif;
     font-style: normal;
     font-size: 20px;
     font-weight: bold;
-    
 }
+
+#myHome .prova {
+    float:right;
+} 
 
 #myHome li a{
     display: block;
     padding: 20px 40px;
     color: white;
     text-decoration: none;
-    
 }
 
 #myHome li a:hover:not(.active) {
@@ -47,7 +48,7 @@ body {
     position: absolute;
     margin-left: -150px;
     margin-right: 9px;
-    }
+}
 
 #dropdown-content {
   margin-bottom: -20px;  
@@ -57,12 +58,11 @@ body {
   padding-top: 1px;
 }
 
-.username {
+#dropdown-content .username {
   border: 1px solid #a6a6a6;
   width: 230px;
   height: 40px;
   border-radius: 3px;
-  margin-left: -1;
   margin-top: 25px;
   padding-left: 9px;
   color: #6c6c6c;
@@ -70,21 +70,20 @@ body {
   outline: none;
 }
 
-.password {
+#dropdown-content .password {
   border: 1px solid #a6a6a6;
   width: 230px;
   height: 40px;
   border-radius: 3px;
   margin-top: 5px;
-  margin-right: 3px;
   padding-left: 9px;
   color: #6c6c6c;
   background: #fcfcfc;
   outline: none;
 }
 
-.password:hover,
-.username:hover {
+#dropdown-content .password:hover,
+#dropdown-content .username:hover {
   box-shadow: 0 0 10px rgba(178, 34, 34, 1);
   border: 1px #b22222 solid;
 }
@@ -97,21 +96,29 @@ body {
   border: 1px #b22222 solid;
 }
 
-.button {
+#dropdown-content .button {
   color: #fff;
   font-size: 20px;
   border: 1px solid #a6a6a6;
-  width: 243px;
+  width: 240px;
   height: 43px;
   border-radius: 5px;
   margin-top: 5px;
-  margin-right: 6px;
-  margin-bottom: 25px;
+  margin-bottom: px;
   outline: none;
   background: rgb(255, 48, 25);
 }
 
-.button:hover {
+#dropdown-content .button:hover {
   background: rgb(204, 0, 0);
+}
+
+#dropdown-content p {
+    color: white;
+    font-size: 15;
+}
+	
+#dropdown-content .registration {
+    margin-bottom: 5px;
 }
 
