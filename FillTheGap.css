@@ -104,7 +104,7 @@ body {
   height: 43px;
   border-radius: 5px;
   margin-top: 5px;
-  margin-bottom: px;
+  margin-bottom: 0px;
   outline: none;
   background: rgb(255, 48, 25);
 }
@@ -116,9 +116,10 @@ body {
 #dropdown-content p {
     color: white;
     font-size: 15;
+    margin-bottom: 10px;
 }
 	
 #dropdown-content .registration {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
