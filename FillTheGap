@@ -1,5 +1,6 @@
 <!DOCTYPE><html>
 <head>
+    <title>Fill The Gap</title>    
     <link rel=stylesheet href="progetto.css"/>
 </head>
 
@@ -19,7 +20,7 @@
                             <input type="text" class="username" placeholder="Username" />
                             <input type="password" class="password" placeholder="Password" />
                             <input type="submit" value="Sign In" class="button" alt=""/>
-                            <p>New to site?</p>
+                            <p>New to FTG?</p>
                             <input type="submit" value="Create your account" class="registration" alt=""/>
                         </form>
                         </div>
