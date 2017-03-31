@@ -4,29 +4,15 @@
 </head>
     
     <body>
-        <div class="foglio">
-            <div class="title">
-                <h1>REGISTRATI</h1>
-            </div>
-            <div>
-                <form>
-                    <label for="fname">First Name</label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lname"><br>
-                    <label for="email">Email Address</label>
-                    <input type="text" id="email" name="email"><br>
-                    <label for="password">Password</label>
-                    <input type="password" id="pswd" name="pswd"><br>
-                    <input type="radio" name="gender" value="male" checked>
-                    <label for="male" class="sex">Male</label><br>
-                    <input type="radio" name="gender" value="female">
-                    <label for="female" class="sex">Female</label><br>
-                    <input type="radio" name="gender" value="other">
-                    <label for="other" class="sex">Other</label><br>
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
-            
-        </div>
+        <div id="registration">
+            <h1>Create your account</h1>
+            <form method="post">
+                <input type="text" class="name" name="name" placeholder="name">
+                <input type="text" class="surname" name="surname" placeholder="surname">
+                <br><input type="email" class="email" placeholder="email">
+                <br><input type="password" class="password" placeholder="password">
+                    <input type="password" class="password" placeholder="confirm password">
+            </form>
+         </div>
     </body>
+</html>
